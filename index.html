@@ -1,0 +1,95 @@
+<!DOCTYPE html> <html><head>
+    <title>Oprah for President</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<style>body{
+    font-family: 'Anton', sans-serif;
+}
+
+h1{
+    font-size: 95px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+#donate h2 {text-shadow: 2px 2px #FFFFFF;}
+
+#eagles h2 {text-shadow: 2px 2px #ff0000;}
+p {
+    font-size: 20px;
+}
+    
+#header, #donate, #eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#header {
+    color: Red;
+    background-image: url("https://15xomi2v386wytrb8nbsoq34-wpengine.netdna-ssl.com/wp-content/uploads/2018/05/Oprah-Winfrey-660x400.jpg");
+}
+
+#donate {
+    background: #1B93AB;
+}
+#eagles {
+    background: #1B93AB;
+    color: white;
+}
+
+#pics img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#pics img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+#donate button:hover {
+    background: yellow;
+    color: black;
+}</style></head>
+<body>
+    <div id="header">
+        <h1>Oprah</h1>
+        <p> HopeRAH</p>
+    </div>
+    <div id="donate">
+        <h2>Donate Now</h2>
+        <p>Invest $1 billion into Oprah to recieve a car when she becomes President.</p>
+        <button>You Get A Car</button>
+    </div>
+    <div id="pics">
+        <img src="https://media.gq.com/photos/5a53b2c7a602e157ac1f0107/3:2/w_560/2018-01_GQ_President-Oprah_3x2.jpg">
+        <img src="https://pbs.twimg.com/profile_images/837337342063087617/ZXTI5B0Z_400x400.jpg">
+        <img src="https://mlifestyle.org/wp-content/uploads/2018/01/20081105_tows_election1_600x411.jpg">
+    </div>
+    <div id="eagles">
+        <h2>The "Read and Drive" Initiative</h2>
+        <p>A new day in on the horizon. If elected, I promise to give a car and book to every citizen.</p>
+    </div>
+
+</body></html>
